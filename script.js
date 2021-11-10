@@ -44,19 +44,12 @@ function newPngJoke() {
 
 }
 
-
-
-
 // Tweet Quote
 function tweetQuote() {
     const twitterUrl = `https://twitter.com/intent/tweet?text=${quoteText.textContent} - ${authorText.textContent}`;
     window.open(twitterUrl, '_blank');
 }
-// Facebook post
-function facebookPost() {
-    const facebookUrl = `https://www.facebook.com/dialog/feed?text=${quoteText.textContent} - ${authorText.textContent}`;
-    window.open(facebookUrl,'_blank');
-}
+
 
 // Event Listener
 
@@ -64,6 +57,7 @@ newQuoteBtn.addEventListener('click',newPngJoke);
 twitterBtn.addEventListener('click',tweetQuote);
 
 // On laod 
+
     
     newPngJoke();
 

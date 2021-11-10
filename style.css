@@ -76,13 +76,7 @@ button:active{
 .fa-twitter{
     font-size: 1.5rem;
 }
-.facebook-button:hover{
-    color: #3b5998;
 
-}
-.fa-facebook{
-    font-size: 1.5rem;
-}
 
 
 
@@ -102,9 +96,10 @@ button:active{
   }
 
 /* Media Query*/
-@media screen and (max-width: 1000px){
+@media screen and (max-width:1000px){
     .quote-container{
         margin: auto 10px;
+        
     }
     .quote-text {
         font-size: 2rem;
